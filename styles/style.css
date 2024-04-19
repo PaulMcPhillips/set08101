@@ -14,45 +14,48 @@ body {
     grid-gap: 14px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+/* image item div formatting */
 .imgitem {
     cursor: pointer;
     object-fit: contain;
     width: 100%;
     height: 100%;
 }
+/* Image description styling */
+.description {
+    color: white;
+}
 /* Navigation bar styling */
-/* Styling for the navigation bar */
 ul.navbar {
-    list-style-type: none; /* Display no marker for the list */
-    margin: 0 auto; /* Navbar margin */
-    padding: 0; /* Navbar padding */
-    overflow: hidden; /* Hide any overflow */
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 /* Styling for the navbar list */
 ul.navbar li {
-    float: left; /* Float the navbar, aligned to the left of the element */
+    float: left;
 }
 /* Styling for the navbar list items */
 ul.navbar li a {
-    display: block; /* Display the items in a block */
-    color: white; /* Set the page links to be white */
-    padding: 14px 16px; /* Links padding */
-    text-decoration: none; /*  */
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 /* Styling for the navbar hover highlight */
 ul.navbar li a:hover {
-    background-color: #30658a; /* Item highlight background colour */
-    border-radius: 10px; /* Make the highlight have rounded corners */
+    background-color: #30658a;
+    border-radius: 10px;
 }
+/* Header styling */
 h1 {
     text-align: center;
     color: cornsilk;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-.description {
-    color: white;
-}
+/* Modal function formatting */
 .modal {
     display: none;
     position: fixed;
@@ -63,6 +66,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 999;
 }
+/* Modal item formatting */
 .modal img {
     display: block;
     max-width: 80%;
@@ -73,6 +77,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* Modal close button formatting */
 .close {
     position: absolute;
     top: 15px;
@@ -81,24 +86,25 @@ h1 {
     font-size: 24px;
     cursor: pointer;
 }
+/* Default link styling */
 a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
-
+/* Visited link styling */
 a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
 }
-
+/* Link hover styling */
 a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
-
+/* Active link styling */
 a:active {
     color: yellow;
     background-color: transparent;
